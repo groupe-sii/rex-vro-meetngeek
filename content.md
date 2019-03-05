@@ -375,7 +375,7 @@ Il permet aussi de détecter et inclure les **dépendances** entres éléments.
 
 Les *uses-cases* suivants s'appuient sur quelques longues années d'utilisation de vCO/vRO chez nos clients.
 
-Ils expriment un certains *biais* lié à notre activité d'*ESN* mais permettent d'avoir une idée des capacités de cet outil.
+Ils expriment un certain *biais* lié à notre activité d'*ESN* mais permettent d'avoir une idée des capacités de cet outil.
 
 La principale limite de vRO: votre imagination.
 
@@ -392,7 +392,7 @@ Automatiser l'arrivée d'un nouveau client/service/utilisateur dans votre SI:
 
 ### Migration(s)
 
-Exporter la structure d'une organisation **vCloud Director** afin de la réimporter dans un autre déploiment.
+Exporter la structure d'une organisation **vCloud Director** afin de la réimporter dans un autre déploiement.
 
 Dans le use-case d'un de nos clients, Zerto n'était absolument pas performant sur ce travail et un contournement basé sur vRO a été développé (gain de temps: `~x10`).
 
@@ -431,7 +431,7 @@ Interaction avec des équipements réseaux pour provisionner des environnements 
 
 ## Conclusion & questions
 
-Les slides de la présentation: 
+Les slides de la présentation:
 
 [groupe-sii.github.io/rex-vro-meetngeek](https://groupe-sii.github.io/rex-vro-meetngeek/)
 
