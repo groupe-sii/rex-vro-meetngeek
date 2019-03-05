@@ -7,6 +7,16 @@
 ## Présentations
 
 
+### vMUG France
+<!-- .slide: class="centered" -->
+![VMUG community](./images/vmug_communities_logo.png)
+
+Communauté francophone des utilisateurs de solutions VMware
+
+* Rejoindre: [community.vmug.com](https://community.vmug.com/)
+* Slack : [vmugfrance.slack.com](https://vmugfrance.slack.com/)
+
+
 **SII Ouest**
 
 Une des agences du Groupe SII.
