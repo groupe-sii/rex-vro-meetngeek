@@ -431,6 +431,10 @@ Interaction avec des équipements réseaux pour provisionner des environnements 
 
 ## Conclusion & questions
 
+Les slides de la présentation: 
+
+[groupe-sii.github.io/rex-vro-meetngeek](https://groupe-sii.github.io/rex-vro-meetngeek/)
+
 
 ### ⚽ Petit point sur le match ⚽
 <!-- .slide: style="text-align:center;" -->
