@@ -14,7 +14,8 @@
 Communauté francophone des utilisateurs de solutions VMware
 
 * Rejoindre: [community.vmug.com](https://community.vmug.com/)
-* Slack : [vmugfrance.slack.com](https://vmugfrance.slack.com/)
+* Slack: [vmugfrance.slack.com](https://vmugfrance.slack.com/)
+* Twitter: [@vmugfr](https://twitter.com/vmugfr)
 
 
 **SII Ouest**
