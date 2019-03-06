@@ -4,6 +4,7 @@
 <!-- .slide: class="centered" -->
 
 
+
 ## Présentations
 
 
@@ -254,7 +255,7 @@ Cela peut inclure des modèles personnalisés (via les plugins customs).
 
 Scénario exécutable basé sur des:
 
-* `input`
+* `inputs`
 * `attributes` (variables)
 * Tests et éléments d'algorithme
 * Actionneurs
@@ -271,10 +272,10 @@ Scénario exécutable basé sur des:
 Equivalent d'une *fonction* Javascript:
 
 * **Réutilisable** (WF, autre action etc.)
-* Des `input`
+* Des `inputs`
 * Une `output` optionnelle
 
-Les actions sont organisée dans des *modules*. 
+Les actions sont organisées dans des *modules*.
 
 Ex:
 
@@ -385,14 +386,14 @@ Il permet aussi de détecter et inclure les **dépendances** entres éléments.
 
 ### Disclaimer
 
-Les *uses-cases* suivants s'appuient sur quelques longues années d'utilisation de vCO/vRO chez nos clients.
+Les *uses-cases* suivants s'appuient sur quelques longues années d'utilisation de vCO/vRO avec nos clients.
 
 Ils expriment un certain *biais* lié à notre activité d'*ESN* mais permettent d'avoir une idée des capacités de cet outil.
 
 La principale limite de vRO: votre imagination.
 
 
-### On aurait pu le faire avec vRO aussi
+### On aurait pu le faire avec vRO aussi…
 <!-- .slide: style="text-align:center;" -->
 
 ![Cédric/PowerCLI](./images/cedricq-powercli.png)<!-- .element class="centered bordered" style="width:70%;" -->
@@ -400,7 +401,7 @@ La principale limite de vRO: votre imagination.
 😉
 
 
-### On-boarding
+### Use-Case: On-boarding
 
 Automatiser l'arrivée d'un nouveau client/service/utilisateur dans votre SI:
 
@@ -410,17 +411,17 @@ Automatiser l'arrivée d'un nouveau client/service/utilisateur dans votre SI:
 * Routines internes…
 
 
-### Migration(s)
+### Use-Case: Migration(s)
 
 Exporter la structure d'une organisation **vCloud Director** afin de la réimporter dans un autre déploiement.
 
 Dans le use-case d'un de nos clients, Zerto n'était absolument pas performant sur ce travail et un contournement basé sur vRO a été développé (gain de temps: `~x10`).
 
 
-### Extension de fonctionnalités
+### Use-Case: Extension de fonctionnalités
 #### Blocking tasks
 
-La notion de *Blocking tasks* sur **vCloud Director** permet d'intervenir avant/pendant/après le déploiement d'une resource.
+La notion de *Blocking tasks* sur **vCloud Director** permet d'intervenir avant/pendant/après le déploiement d'une ressource.
 
 En utilisant vRO+AMQP (RabbitMQ), on peut par exemple:
 
@@ -429,19 +430,19 @@ En utilisant vRO+AMQP (RabbitMQ), on peut par exemple:
 * Insérer un mécanisme d'approbation des demandes…
 
 
-### Extension de fonctionnalités
+### Use-Case: Extension de fonctionnalités
 #### Multi-cloud
 
 **vRealize Automation** s'appuie sur vRO pour étendre le champ de ses fonctionnalités (*XaaS*).
 
 Cela nous a permis d'ajouter le support d'un cloud public initialement non pris en charge par vRA.
 
-Ce projet utilisait massivement les `dynamicTypes` et les call API *REST* via le plugin natif de vRO afin de permettre le déploiement de stack *HEAT* (OpenStack).
+Ce projet utilisait massivement les `dynamicTypes` et les call API *REST* via le plugin natif de vRO afin de permettre le déploiement de stacks *HEAT* (OpenStack).
 
 
-### Interconnexions de produits
+### Use-Case: Interconnexions de produits
 
-Interaction avec des équipements réseaux pour provisionner des environnements clients automatiquement (*le SDN avant l'heure!*):
+Interaction avec des équipements réseaux pour provisionner automatiquement des environnements clients (*le SDN avant l'heure!*):
 
 * Partition F5/BigIP
 * VSYS Juniper
