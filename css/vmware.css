@@ -65,6 +65,10 @@
   border-radius: 2px;
 }
 
+.logo {
+  width: 7%;
+}
+
 /**
  * Info box
  */

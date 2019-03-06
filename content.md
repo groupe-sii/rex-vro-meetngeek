@@ -7,16 +7,17 @@
 ## Présentations
 
 
-### vMUG France
+<!--
+### vMUG France-->
 <!-- .slide: class="centered" -->
-![VMUG community](./images/vmug_communities_logo.png)
+<!-- ![VMUG community](./images/vmug_communities_logo.png)
 
 Communauté francophone des utilisateurs de solutions VMware
 
 * Rejoindre: [community.vmug.com](https://community.vmug.com/)
 * Slack: [vmugfrance.slack.com](https://vmugfrance.slack.com/)
 * Twitter: [@vmugfr](https://twitter.com/vmugfr)
-
+-->
 
 **SII Ouest**
 
@@ -389,6 +390,14 @@ Les *uses-cases* suivants s'appuient sur quelques longues années d'utilisation 
 Ils expriment un certain *biais* lié à notre activité d'*ESN* mais permettent d'avoir une idée des capacités de cet outil.
 
 La principale limite de vRO: votre imagination.
+
+
+### On aurait pu le faire avec vRO aussi
+<!-- .slide: style="text-align:center;" -->
+
+![Cédric/PowerCLI](./images/cedricq-powercli.png)<!-- .element class="centered bordered" style="width:70%;" -->
+
+😉
 
 
 ### On-boarding
