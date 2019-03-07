@@ -413,9 +413,9 @@ Automatiser l'arrivée d'un nouveau client/service/utilisateur dans votre SI:
 
 ### Use-Case: Migration(s)
 
-Exporter la structure d'une organisation **vCloud Director** afin de la réimporter dans un autre déploiement.
+Exporter la structure d'une organisation **vCloud Director** afin de la réimporter dans un autre déploiement via un mapping pré-défini.
 
-Dans le use-case d'un de nos clients, Zerto n'était absolument pas performant sur ce travail et un contournement basé sur vRO a été développé (gain de temps: `~x10`).
+Dans le use-case d'un de nos clients, l'opération était réalisée manuellement (`~15min/VM`) et a été grandement accélérée par l'usage d'un WF vRO (gain de temps: `~2min/VM`).
 
 
 ### Use-Case: Extension de fonctionnalités
